@@ -37,4 +37,4 @@ CSS makes the web look good and you can style everything down to the last elleme
 
 
 ## Live Demo (if deployed)
-[Personal Profile](https://Nyakito.github.io/iyf-s12-week-01-Nyakito)
+[Personal Profile](https://Nyakito.github.io/iyf-s12-week-02-Nyakito)
