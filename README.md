@@ -36,5 +36,5 @@ xdg-open index.html
 CSS makes the web look good and you can style everything down to the last ellement.
 
 
-## Live Demo (if deployed)
-[Personal Profile](https://Nyakito.github.io/iyf-s12-week-02-Nyakito)
+## Live Demo (Week 02 fully responsive website)
+[Responsive Personal Profile](https://Nyakito.github.io/iyf-s12-week-02-Nyakito)
