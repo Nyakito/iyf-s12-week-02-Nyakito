@@ -154,3 +154,185 @@ footer a {
     display: inline-block;
     margin-bottom: 20px;
 }
+
+/* =========================================
+   2. FLEXBOX CARD PAGE
+   Body class: cards-page
+========================================= */
+
+.cards-page {
+    font-family: Arial, sans-serif;
+    background-color: papayawhip;
+    color: #333;
+    padding: 32px;
+}
+
+.cards-page h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cards-page .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.cards-page .card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 500px;
+}
+
+.cards-page .card h2 {
+    margin-bottom: 12px;
+    color: #27834a;
+}
+
+.cards-page .card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cards-page .card a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #27834a;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.cards-page .card a:hover {
+    background-color: #185c32;
+}
+
+
+/* =========================================
+   3. FLEXBOX NAVIGATION PAGE
+   Body class: nav-page
+========================================= */
+
+.nav-page {
+    margin-top: 12px;
+    margin-left: 32px;
+    background-color: papayawhip;
+    color: rgb(58, 147, 58);
+    font-family: Cambria, Cochin, Georgia, Times,
+                 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.nav-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    margin-left: 16px;
+}
+
+.nav-page .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 64px;
+    list-style: none;
+}
+
+.nav-page a {
+    text-decoration: none;
+}
+
+.nav-page a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   4. FOOTER PAGE
+   Body class: footer-page
+========================================= */
+
+/*.footer-page {
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-bottom: 0;
+}
+
+.footer-page .footer {
+    margin-top: auto;
+    border-top: 2px green solid;
+}
+
+.footer-page .footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-page .footer-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/
+/*.footer-page{
+    display: flex;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.footer-page .footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-page .footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+*/
+.footer-page {
+    line-height: 1.6;
+    background-color: aliceblue;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-page .footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-page .footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+
