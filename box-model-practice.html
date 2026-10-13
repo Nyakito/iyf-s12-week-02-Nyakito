@@ -2,219 +2,58 @@
 <html lang="en">
 
 <head>
+    <!-- Character encoding -->
     <meta charset="UTF-8">
+
+    <!-- Responsive layout for phones, tablets, and computers -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>LESSON 3 TASKS</title>
 
-    <style>
-
-        /* =========================
-           GLOBAL
-           ========================= */
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgb(229, 244, 227);
-            color: rgb(38, 54, 56);
-            padding: 50px;
-            line-height: 1.6;
-        }
-
-
-        /* =========================
-           MAIN TITLE
-           ========================= */
-
-        h1 {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 3rem;
-            color: rgb(41, 69, 72);
-        }
-
-
-        /* =========================
-           EXERCISE 1
-           BOX MODEL
-           ========================= */
-
-        .visual-margin {
-            background-color: lightblue;
-            padding: 30px;
-            max-width: 500px;
-            margin: 0 auto 50px;
-            text-align: center;
-        }
-
-        .visual-border {
-            border: 5px solid #333;
-            padding: 0;
-        }
-
-        .visual-padding {
-            background-color: lightgreen;
-            padding: 30px;
-        }
-
-        .visual-content {
-            background-color: white;
-            padding: 40px;
-            font-weight: bold;
-        }
-
-
-        /* =========================
-           CODE DISPLAY
-           ========================= */
-
-        fieldset {
-            margin: 40px auto;
-            padding: 25px;
-            max-width: 800px;
-            border: 2px solid rgb(59, 96, 100);
-            border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.6);
-        }
-
-        legend {
-            padding: 0 10px;
-            font-size: 1.25rem;
-            font-weight: bold;
-            color: rgb(41, 69, 72);
-        }
-
-        pre {
-            text-align: left;
-            background-color: rgb(38, 54, 56);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            overflow-x: auto;
-            font-family: monospace;
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-
-
-        /* =========================
-           EXERCISE 3
-           CARD
-           ========================= */
-
-        .card {
-            width: 300px;
-            padding: 20px;
-            border: 1px solid gray;
-            box-sizing: border-box;
-            background-color: white;
-            margin: 40px auto;
-        }
-
-        .card img {
-            width: 100%;
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .card h2 {
-            margin-bottom: 15px;
-            color: rgb(41, 69, 72);
-        }
-
-        .card p {
-            margin-bottom: 20px;
-        }
-
-        .card button {
-            padding: 8px 16px;
-            border: none;
-            cursor: pointer;
-            background-color: rgb(59, 96, 100);
-            color: white;
-        }
-
-        .card button:hover {
-            background-color: rgb(41, 69, 72);
-        }
-
-
-        /* =========================
-           TYPOGRAPHY DEMONSTRATION
-           ========================= */
-
-        .typography-demo {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 25px;
-            background-color: white;
-            border-radius: 10px;
-        }
-
-        .typography-demo h2 {
-            font-size: 3rem;
-        }
-
-        .typography-demo h3 {
-            font-size: 2rem;
-        }
-
-        .typography-demo p {
-            font-size: 1rem;
-        }
-
-        .typography-demo small {
-            font-size: 0.875rem;
-            color: rgb(107, 124, 126);
-        }
-
-    </style>
-
+    <!-- Link to the shared stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
+<body class="lesson3-page">
 
-<body>
+    <!-- =========================
+         MAIN TITLE
+         ========================= -->
 
-    <h1>LESSON 3 TASKS</h1>
+    <h1 class="lesson3-title">LESSON 3 TASKS</h1>
 
 
     <!-- =========================
-         EXERCISE 1
+         EXERCISE 1: BOX MODEL
          ========================= -->
 
-    <h2>Exercise 1 — Box Model Visualization</h2>
+    <h2 class="lesson3-section-title">
+        Exercise 1 — Box Model Visualization
+    </h2>
 
-    <div class="visual-margin">
+    <div class="lesson3-visual-margin">
         Margin
 
-        <div class="visual-border">
+        <div class="lesson3-visual-border">
             Border
 
-            <div class="visual-padding">
+            <div class="lesson3-visual-padding">
                 Padding
 
-                <div class="visual-content">
+                <div class="lesson3-visual-content">
                     Content
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- =========================
-         EXERCISE 2
+         EXERCISE 2: DEBUG LAYOUT
          ========================= -->
 
-    <fieldset>
+    <fieldset class="lesson3-code-fieldset">
 
         <legend>Exercise 2 — Debug the layout</legend>
 
@@ -229,19 +68,22 @@
 
 
     <!-- =========================
-         EXERCISE 3
+         EXERCISE 3: CARD COMPONENT
          ========================= -->
 
-    <h2>Exercise 3 — Card Component</h2>
+    <h2 class="lesson3-section-title">
+        Exercise 3 — Card Component
+    </h2>
 
-    <article class="card">
+    <article class="lesson3-card">
 
         <img
+            class="lesson3-card-image"
             src="https://imgs.search.brave.com/z4ucetFBwBF2CTu1-Nhp25-ZamAQhSUvry1OtX0iSpc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvcmlsZXktZnJl/ZW1hbi10YzlrdXRm/NGxjM3U0ZjlyLmpw/Zw"
             alt="Image of Riley Freeman from The Boondocks"
         >
 
-        <section class="card-content">
+        <section class="lesson3-card-content">
 
             <h2>My Project</h2>
 
@@ -250,7 +92,7 @@
                 a card with the exact description given in the repository.
             </p>
 
-            <button>View Project</button>
+            <button type="button">View Project</button>
 
         </section>
 
@@ -258,10 +100,10 @@
 
 
     <!-- =========================
-         TASK 3.3
+         TASK 3.3: TYPOGRAPHY SYSTEM
          ========================= -->
 
-    <fieldset>
+    <fieldset class="lesson3-code-fieldset">
 
         <legend>Task 3.3 — Typography System</legend>
 
@@ -280,9 +122,9 @@
     </fieldset>
 
 
-    <!-- Typography actually demonstrated -->
+    <!-- Typography preview -->
 
-    <div class="typography-demo">
+    <div class="lesson3-typography-demo">
 
         <h2>Typography Preview</h2>
 
@@ -301,10 +143,10 @@
 
 
     <!-- =========================
-         TASK 3.4
+         TASK 3.4: COLOUR SCHEME
          ========================= -->
 
-    <fieldset>
+    <fieldset class="lesson3-code-fieldset">
 
         <legend>Task 3.4 — Colour Scheme</legend>
 
@@ -320,7 +162,6 @@
 }</code></pre>
 
     </fieldset>
-
 
 </body>
 
